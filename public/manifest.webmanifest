@@ -1,0 +1,17 @@
+{
+  "name": "Backbeat: l'inglese a tempo",
+  "short_name": "Backbeat",
+  "description": "L'app di inglese di Pipu: drill a tempo di batteria, mattoncini, dialoghi e un libro di grammatica.",
+  "lang": "it",
+  "start_url": "/",
+  "scope": "/",
+  "display": "standalone",
+  "orientation": "portrait",
+  "background_color": "#1D39A3",
+  "theme_color": "#1D39A3",
+  "icons": [
+    { "src": "/icons/icon-192.png", "sizes": "192x192", "type": "image/png" },
+    { "src": "/icons/icon-512.png", "sizes": "512x512", "type": "image/png" },
+    { "src": "/icons/icon-maskable-512.png", "sizes": "512x512", "type": "image/png", "purpose": "maskable" }
+  ]
+}

@@ -1,0 +1,22 @@
+{
+  "name": "backbeat-pipu",
+  "private": true,
+  "version": "1.0.0",
+  "type": "module",
+  "description": "Backbeat: app per imparare l'inglese a tempo di musica, fatta per Pipu.",
+  "scripts": {
+    "dev": "vite",
+    "build": "npm run check && vite build",
+    "preview": "vite preview",
+    "check": "node scripts/check-content.mjs",
+    "book": "node scripts/build-book.mjs"
+  },
+  "dependencies": {
+    "react": "^19.2.0",
+    "react-dom": "^19.2.0"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-react": "^6.0.0",
+    "vite": "^8.0.0"
+  }
+}
